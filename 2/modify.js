@@ -1,3 +1,3 @@
-function setHelloWorld(id) {
-    document.getElementById(id).addEventListener("click", function(){alert('Hello World');})
+function modify (id, html) {
+    document.getElementById(id).innerHTML = html
 }
